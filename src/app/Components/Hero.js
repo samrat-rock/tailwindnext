@@ -7,7 +7,7 @@ import { GetStart } from './Index'
 
 function hero() {
   return (
-    <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY} font-poppins`}>
+    <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY} font-poppins `}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className='flex flex-row items-center py-2 px-4 bg-discount-gradient rounded-[10px] mb-2'>
         <Image src={discount} alt='' width={20} height={20}/>
@@ -28,14 +28,15 @@ function hero() {
         </div>
 
         <h1 className='font-semibold text-[52px] text-white ss:text-[68px] ss:leading-[100px] leading-[75px] w-full'>
-  Payment Method
-</h1>
+          PaymentMethod
+
+        </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}> Our team of experts uses a methodology to identify the credit cards
           most likely to fit your needs. We examine annual percentage rates,
           annual fees.</p>
            
       </div>
-   <div>
+   <div className='py-5'>
     <Image src={robot} alt='' className='w-[100%] h-[100%] relative z-[5]'/>
 
     <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient'/>

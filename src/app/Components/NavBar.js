@@ -12,7 +12,7 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between  items-center font-poppins">
+    <nav className="w-full flex py-6 justify-between my-4 items-center ">
       <Image src={logo} width={100} height={100} alt="hoobbank" />
 
       <ul className="list-none sm:flex justify-end hidden items-center flex-1  ">
@@ -40,7 +40,7 @@ function Navbar() {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } p-6  bg-black-gradient  mx-4 my-2 min-w-64 rounded-xl sidebar absolute top-24 right-0 `}
+          } p-6  bg-black  mx-4 my-2 min-w-64 rounded-xl sidebar absolute top-24 right-0 `}
         >
           <ul className="list-none flex gap-8 flex-col ">
             {navLinks.map((nav, index) => (
