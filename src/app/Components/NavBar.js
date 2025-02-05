@@ -12,7 +12,7 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between  items-center ">
+    <nav className="w-full flex py-6 justify-between  items-center font-poppins">
       <Image src={logo} width={100} height={100} alt="hoobbank" />
 
       <ul className="list-none sm:flex justify-end hidden items-center flex-1  ">
